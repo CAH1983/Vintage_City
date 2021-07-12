@@ -16,10 +16,10 @@ From the local machine
 
 Open the main folder "Vintage_City" in VS code or any editor
 Go on the Terminal / CMD / Powershell:
-Run "npm install" to install all the dependencies
-Then type "npm run start"
+Run ```npm install``` to install all the dependencies
+Then type ```npm run start```
 Open a 2nd terminal, go to the "client" folder
-Type "cd client", then "npm run start"
+Type ```cd client```, then ```npm run start``` again
 The page will automatically open in the browser
 
 
@@ -27,11 +27,11 @@ The page will automatically open in the browser
 
 * **Setting up the Backend**
 * Create a folder
-* Create a Node project: running "npm init -y" in the terminal from this folder
+* Create a Node project: running ```npm init -y``` in the terminal from this folder
 * Create the server folder, and a JavaScript file "index.js" where we configure the PORT to run on 3001 and create an API endpoint
 * Install Express 
 
 **Setting up the Frontend**
-* In the terminal: Type "create-react-app"
+* In the terminal: Type ```npx create-react-app <nameoftheapp>```
  
  
