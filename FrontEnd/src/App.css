@@ -1,0 +1,6 @@
+/* Nav Bar */
+
+.inline-flex {
+  display: flex;
+  justify-content: space-between;
+}
