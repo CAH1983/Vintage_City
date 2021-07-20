@@ -1,10 +1,15 @@
 import React from "react";
-import "./App.css";
+import "./Styles/App.css";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 // Components
 import Header from "./Components/Header";
-import HomeGuest from "./Components/HomeGuest";
+import HomeGuest from "./Components/Screens/HomeGuest";
 import Footer from "./Components/Footer";
+import MusicScreen from "./Components/Screens/MusicScreen";
+import TVScreen from "./Components/Screens/TVScreen";
+import CollectorScreen from "./Components/Screens/ClothingScreen";
+import ClothingScreen from "./Components/Screens/ClothingScreen";
 
 function App() {
   const [data, setData] = React.useState(null);
@@ -17,11 +22,33 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <BrowserRouter>
       <Header />
-      <HomeGuest />
+
+      <Switch>
+        <Route path="/" exact>
+          <HomeGuest />
+        </Route>
+
+        <Route path="/Music">
+          <MusicScreen />
+        </Route>
+
+        <Route path="/TVshows">
+          <TVScreen />
+        </Route>
+
+        <Route path="/Collectors">
+          <CollectorScreen />
+        </Route>
+
+        <Route path="/Clothing">
+          <ClothingScreen />
+        </Route>
+      </Switch>
+
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 
