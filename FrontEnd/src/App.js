@@ -16,7 +16,7 @@ function App() {
 
   //use useEffect to get data from API
   React.useEffect(() => {
-    fetch("/api")
+    fetch("http://localhost:3001/api")
       .then(res => res.json())
       .then(data => setData(data.message));
   }, []);
