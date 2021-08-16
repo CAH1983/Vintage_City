@@ -3,7 +3,7 @@ const express = require('express');
 const PORT = process.env.PORT || 3001;
 const app = express();
 const path = require('path');
-const collectors = require('./Data/Collectors')
+const collectors = require('../FrontEnd/src/DataFrontEnd/CollectorsData')
 
 
 // ROUTES
