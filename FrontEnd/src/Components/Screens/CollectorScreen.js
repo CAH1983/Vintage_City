@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function CollectorScreen() {
   return (
-    <div className='collector-screen'>
+    <div className='CollectorScreen'>
       <h1>Collectors</h1>
       <ul className='collectors-list'>
         {collectorsData.map(collector => (

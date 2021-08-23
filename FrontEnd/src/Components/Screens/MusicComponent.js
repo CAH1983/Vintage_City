@@ -2,7 +2,7 @@ import React from 'react';
 
 function MusicComponent({ musicURL, artist, song }) {
   return (
-    <div>
+    <div className='MusicComponent'>
       <div className='video-responsive'>
         <iframe
           width='853'

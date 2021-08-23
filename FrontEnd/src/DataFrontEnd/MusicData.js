@@ -18,6 +18,21 @@ const musicData = [
     artist: 'Bee Gees',
     song: "Stayin' Alive 🕺 ",
     url: 'https://www.youtube.com/embed/fNFzfwLM72c'
+  },
+  {
+    artist: 'Earth, Wind & Fire',
+    song: "Let's Groove",
+    url: 'https://www.youtube.com/embed/Lrle0x_DHBM'
+  },
+  {
+    artist: 'Whitney Houston',
+    song: 'I Have Nothing',
+    url: 'https://www.youtube.com/embed/FxYw0XPEoKE'
+  },
+  {
+    artist: 'George Michael',
+    song: 'Freedom!',
+    url: 'https://www.youtube.com/embed/diYAc7gB-0A'
   }
 ];
 
