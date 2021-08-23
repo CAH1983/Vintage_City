@@ -1,11 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
-function MusicComponent({ musicURL }) {
+function MusicComponent({ musicURL, artist, song }) {
   return (
     <div>
       <div className='video-responsive'>
-        <h1>Music component</h1>
         <iframe
           width='853'
           height='480'
@@ -15,6 +13,8 @@ function MusicComponent({ musicURL }) {
           allowFullScreen
           title='Embedded youtube'
         />
+        <h3> {song} </h3>
+        <p> {artist} </p>
       </div>
     </div>
   );
