@@ -7,7 +7,7 @@ function Header() {
       <div className='inline-flex container'>
         <div className='logo-wrapper'>
           <Link to='/'>
-            <img className='logo-header' src='Images/VC-Logo.png' alt='VC logo' />
+            <img className='logo-header' src='Images/vintage-city-logo-black.svg' alt='VC logo' />
           </Link>
         </div>
 
