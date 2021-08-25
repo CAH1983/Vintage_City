@@ -11,7 +11,7 @@ function CollectorScreen() {
           <li key={collector._id}>
             <div className='collector-wrapper'>
               <Link to={'/product/' + collector._id}>
-                <img className='collector-img' src={collector.image} alt='product1' />
+                <img className='collector-img' src={collector.image} alt={collector.name} />
               </Link>
               <div className='collector-name'>
                 <Link to={'/Collectors/' + collector._id}> {collector.name}</Link>
