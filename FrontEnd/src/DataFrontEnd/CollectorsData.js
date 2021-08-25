@@ -1,6 +1,6 @@
 const collectorsData = [
   {
-    id: 1,
+    _id: 1,
     category: 'Electronics',
     name: 'floppy disk',
     brand: 'IBM',
@@ -12,7 +12,7 @@ const collectorsData = [
   },
 
   {
-    id: 2,
+    _id: 2,
     category: 'Toys',
     name: 'Ondamania',
     brand: 'Toys R us',
