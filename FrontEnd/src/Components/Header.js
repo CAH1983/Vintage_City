@@ -4,8 +4,8 @@ import '../Styles/Header.css';
 
 function Header() {
   return (
-    <header className='Header'>
-      <div className='inline-flex container'>
+    <Header className='Header'>
+      <div className='inline-flex'>
         <div className='logo-wrapper'>
           <Link to='/'>
             <img className='logo-header' src='Images/vintage-city-logo-white.svg' alt='VC logo' />
@@ -21,7 +21,7 @@ function Header() {
           <button id='login-btn'>Get Started</button>
         </div>
       </div>
-    </header>
+    </Header>
   );
 }
 
