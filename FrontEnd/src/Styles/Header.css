@@ -2,4 +2,22 @@
 .Header {
   background-color: black;
   color: white;
+  height: 4rem;
+}
+
+/* Logo image */
+.logo-header {
+  height: 33px;
+  width: 189px;
+}
+
+/* links wrapper */
+.header-links {
+  width: 50%;
+}
+
+.inline-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

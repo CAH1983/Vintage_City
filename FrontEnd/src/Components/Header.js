@@ -17,9 +17,8 @@ function Header() {
           <Link to='/TVshows'>TV Shows</Link>
           <Link to='/Collectors'>Collectors</Link>
           <Link to='/Clothing'>Clothing</Link>
-          <button id='login-btn' className='btn basic-btn'>
-            Sign Up / Login
-          </button>
+
+          <button id='login-btn'>Get Started</button>
         </div>
       </div>
     </header>

@@ -4,13 +4,6 @@
   --blueLogo: rgb(0, 48, 135);
 }
 
-/*utility class*/
-.inline-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -18,25 +11,6 @@
 body {
   margin: 0;
   background-color: black;
-}
-
-/* Nav Bar */
-
-.header-links-wrapper {
-  width: 50%;
-  height: 3rem;
-}
-
-/* button */
-button.basic-btn {
-  background-color: var(--blueLogo);
-  color: white;
-}
-
-/* Logo image */
-.logo-header {
-  height: 33px;
-  width: 189px;
 }
 
 /* Home */
