@@ -1,4 +1,4 @@
-import { React, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Styles/App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -12,10 +12,10 @@ import CollectorScreen from './Components/Screens/CollectorScreen';
 import ClothingScreen from './Components/Screens/ClothingScreen';
 
 function App() {
-  const [data, setData] = React.useState(null);
+  const [data, setData] = useState(null);
 
   //use useEffect to get data from API
-  React.useEffect(() => {
+  useEffect(() => {
     fetch('http://localhost:3001/api')
       .then(res => res.json())
       .then(data => setData(data.message));

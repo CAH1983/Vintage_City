@@ -6,6 +6,7 @@ function HomeGuest() {
   return (
     <div className='HomeGuest'>
       <Hero />
+      {console.log('home guest')}
       <Suggestions />
     </div>
   );
