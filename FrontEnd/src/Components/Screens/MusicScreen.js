@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import MusicComponent from './MusicComponent';
 import musicData from '../../DataFrontEnd/MusicData';
 
