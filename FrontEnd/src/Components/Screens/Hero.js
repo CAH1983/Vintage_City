@@ -1,4 +1,5 @@
 import React from 'react';
+import './../../Styles/Hero.css';
 
 function Hero() {
   return (
@@ -11,6 +12,8 @@ function Hero() {
 
         <div>
           <img className='hero-img' src='Images/retro-hero.jpg' alt="80's geo background" />
+
+          Image goes here
         </div>
       </section>
     </>
