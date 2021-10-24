@@ -18,12 +18,12 @@ Open the main folder "Vintage_City" in VS code or any editor
 Go on the Terminal / CMD / Powershell:
 Run ```npm install``` to install all the dependencies
 Then type ```npm run start```
-Open a 2nd terminal, go to the "client" folder
+Open a 2nd terminal, go to the "FrontEnd" folder
 Type ```cd FrontEnd```, then ```npm run start``` again
 The page will automatically open in the browser
 
 
-## Steps
+## Steps - How I built it?
 
 * **Setting up the Backend**
 * Create a folder
