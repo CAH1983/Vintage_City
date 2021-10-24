@@ -17,6 +17,7 @@ function Hero() {
           <Grid item xs={7}>
             <div>
               <img className='hero-img' src='Images/retro-hero.jpg' alt="80's geo background" />
+              image
             </div>
           </Grid>
         </Grid>
